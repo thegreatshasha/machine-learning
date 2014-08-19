@@ -1,14 +1,20 @@
 ##Machine learning snippets
 
-A collection of machine learning snippets in python. Currently includes a handwriting analyzer
+A collection of machine learning snippets in python. Currently includes a handwriting analyzer and a decision tree based contact lens prescriber
 
-##Examples
-You need to customize the match_response method dependending on the website you are trying to crawl in crawler.rb. Have a look at runner.rb for example
+## Requirements
+You need to have numpy installed
+
+##Training Data
+
 
 ##Usage
+For the hand writing classifier
 ```bash
-ruby runner.rb
+python hand_writing.py
 ```
 
-##Contributing
-Welcoming pull requests, issues
+For the contact lens prescriber
+```bash
+python contact_lens.py
+```
